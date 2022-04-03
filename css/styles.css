@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+}
+body{
+    background-color: #ffe4c4;
+    text-align: center;
+}
+
+header{
+    text-align: end;
+
+}
+
+h1{
+    color: #ff0037;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+    text-decoration-line: underline;
+    animation-name: animate__flash;
+    animation-duration: 6s;
+}
+
+h2{
+    color: #0011ff;
+    text-align: start;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   }
+
+.parrafoGrande{
+    color: #000000;
+    font-size: x-large;
+      
+}   
+p{
+    color: #29262688;
+}
+
+.consulta{
+    color: #000000;
+    padding: 10px;
+    margin: auto;
+    border: 5px solid #0000ff;
+    width: 100px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 3s;
+
+}
+
+#tabla{
+    margin: auto;
+}
+
+@keyframes example {
+    from{background-color: #2600ff;}
+    to{background-color: #ff000d;}
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+
+}
